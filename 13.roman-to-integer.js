@@ -10,7 +10,7 @@
  * @return {number}
  */
 var romanToInt = function(s) {
-    
+return 1    
 };
 // @lc code=end
 
