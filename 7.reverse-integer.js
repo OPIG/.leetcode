@@ -9,6 +9,7 @@
  * @param {number} x
  * @return {number}
  */
+<<<<<<< HEAD
 
  // reverse(-2147483648) 
 // var reverse = function(x) {
@@ -51,4 +52,20 @@ var reverse = function(x){
 // @lc code=end
 var t = reverse(-2147483648)
 console.log(t)
+=======
+var reverse = function(x) {
+    var res=0
+    while(x){
+        res=res*10 + x%10
+        x = parseInt(x/10)
+    }
+
+    if(res>Math.pow(2,31)||-res>Math.pow(2,31)){
+        res = 0
+    }
+
+    return res
+};
+// @lc code=end
+>>>>>>> store temply by atom
 
