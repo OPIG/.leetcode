@@ -10,7 +10,6 @@
  * @return {number}
  */
 var romanToInt = function(s) {
-<<<<<<< HEAD
     var arr = s.split('')
     var newArr = []
     newArr = arr.map((item,index)=>{
@@ -37,9 +36,6 @@ var romanToInt = function(s) {
 
     return sum
     
-=======
-return 1    
->>>>>>> 502cb36d455dd9e6990a946505e16188df478853
 };
 // @lc code=end
 
