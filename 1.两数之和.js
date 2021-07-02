@@ -11,6 +11,7 @@
  * @return {number[]}
  * Time Complexity O(n)
  * Space Complexity O(n)
+ * method: hash map
  */
 var twoSum = function(nums, target) {
   var mapping = {}
