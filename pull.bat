@@ -1,3 +1,3 @@
-git pull
+git push master master
 
 pause
