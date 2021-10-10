@@ -9,6 +9,7 @@
  * @param {number[]} nums
  * @return {number}
  */
+// solution 1
 // var majorityElement = function (nums) {
 //   var obj = {}
 //   for (var i of nums) {
@@ -25,6 +26,17 @@
 //   }
 // };
 
+// slution 2
+// var majorityElement = function(nums) { 
+//   const map = {}
+//   const n = nums.length >> 1 // >>是右移运算符，意思是除以2
+//   for(let i = 0; i < nums.length; i++) {
+//     map[nums[i]] = map[nums[i]] != undefined ? map[nums[i]] + 1 : 1
+//     if(map[nums[i]] > n) return nums[i]
+//   }
+// }
+
+// solution 3
 var majorityElement = function(nums) {
   // 两两抵消，剩下的最后一个候选者，然后再计算剩下的最后一个候选者出现的次数
   const N = nums.length;

@@ -39,6 +39,14 @@ function singleNumber(nums) {
   return nums.reduce((prev, curr) => prev ^ curr);
 }
 
+// function singleNumber(nums) {
+//   let init = nums[0];
+//   for(let i = 1; i < nums.length; i++){
+//       init ^=  nums[i];
+//   }
+//   return init;
+// };
+
 // var singleNumber = function (nums) {
 //   let N = nums.length;
 //   let flg = null;
